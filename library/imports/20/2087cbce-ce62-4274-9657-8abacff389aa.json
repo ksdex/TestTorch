@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "QQ截图20180604175009",
+    "texture": "76bb009e-1057-4149-8aa6-dade49dba8ed",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      958,
+      158
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      958,
+      158
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

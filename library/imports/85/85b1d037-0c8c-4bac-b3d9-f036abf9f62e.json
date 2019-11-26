@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "todie0011",
+    "texture": "e75af459-b1ce-4121-8398-531a1f57b8b8",
+    "atlas": "",
+    "rect": [
+      0,
+      333,
+      800,
+      767
+    ],
+    "offset": [
+      0,
+      -166.5
+    ],
+    "originalSize": [
+      800,
+      1100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

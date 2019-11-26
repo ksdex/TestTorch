@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "doorr",
+    "texture": "3c2a1ca6-af4b-4918-a513-dc04f4083153",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      166,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      166,
+      186
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

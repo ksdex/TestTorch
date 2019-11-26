@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "backghost0005",
+    "texture": "37cd3bad-7974-404f-88ab-e2c0671e1669",
+    "atlas": "",
+    "rect": [
+      81,
+      97,
+      676,
+      1003
+    ],
+    "offset": [
+      19,
+      -48.5
+    ],
+    "originalSize": [
+      800,
+      1100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

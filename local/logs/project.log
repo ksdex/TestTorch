@@ -1,0 +1,278 @@
+2019-11-26T05:57:26.516Z - normal: Load ~/.CocosCreator/settings.json
+2019-11-26T05:57:27.837Z - normal: Initializing Asset Database
+2019-11-26T05:57:27.844Z - normal: checking language setting...
+2019-11-26T05:57:27.844Z - normal: Language: zh
+2019-11-26T05:57:30.670Z - success: preview server running at http://localhost:7456
+2019-11-26T05:57:30.682Z - success: protocol editor-framework registered
+2019-11-26T05:57:30.683Z - success: protocol app registered
+2019-11-26T05:57:30.683Z - success: protocol theme registered
+2019-11-26T05:57:30.683Z - success: protocol packages registered
+2019-11-26T05:57:30.684Z - success: protocol uuid registerred
+2019-11-26T05:57:30.684Z - success: protocol db registerred
+2019-11-26T05:57:30.684Z - success: protocol thumbnail registerred
+2019-11-26T05:57:30.684Z - success: protocol unpack registerred
+2019-11-26T05:57:30.684Z - success: protocol disable-commonjs registerred
+2019-11-26T05:57:33.670Z - normal: failed to connect login server due to request timeout
+2019-11-26T05:57:33.672Z - normal: Check project D:\homework\TestTorch
+2019-11-26T05:57:33.677Z - normal: Initializing project D:\homework\TestTorch
+2019-11-26T05:57:35.134Z - normal: Initializing Cocos2d
+2019-11-26T05:57:41.411Z - normal: Initializing engine extends
+2019-11-26T05:57:41.471Z - success: alipay-adapter loaded
+2019-11-26T05:57:41.496Z - success: asset-db-debugger loaded
+2019-11-26T05:57:41.507Z - success: baidu-adapter loaded
+2019-11-26T05:57:41.516Z - success: color-picker loaded
+2019-11-26T05:57:41.949Z - success: fb-audience-network loaded
+2019-11-26T05:57:42.139Z - success: fb-live-stream loaded
+2019-11-26T05:57:42.186Z - success: google-play-instant loaded
+2019-11-26T05:57:42.242Z - success: huawei-runtime loaded
+2019-11-26T05:57:43.527Z - success: cpk-publish loaded
+2019-11-26T05:57:43.546Z - success: jsb-adapter loaded
+2019-11-26T05:57:43.624Z - success: oppo-runtime loaded
+2019-11-26T05:57:43.653Z - success: package-manager loaded
+2019-11-26T05:57:44.373Z - success: qqplay-adapter loaded
+2019-11-26T05:57:44.392Z - success: runtime-dev-tools loaded
+2019-11-26T05:57:44.431Z - success: sdkbox loaded
+2019-11-26T05:57:44.462Z - success: tester loaded
+2019-11-26T05:57:44.492Z - success: ui-kit-preview-extra loaded
+2019-11-26T05:57:44.520Z - success: ui-kit-preview loaded
+2019-11-26T05:57:44.547Z - success: ui-kit loaded
+2019-11-26T05:57:44.626Z - success: vivo-runtime loaded
+2019-11-26T05:57:44.632Z - success: weapp-adapter loaded
+2019-11-26T05:57:44.672Z - success: xiaomi-adapter loaded
+2019-11-26T05:57:44.679Z - success: alipay-minigame loaded
+2019-11-26T05:57:44.828Z - success: assets loaded
+2019-11-26T05:57:44.834Z - success: builder loaded
+2019-11-26T05:57:45.712Z - success: cocos-services loaded
+2019-11-26T05:57:45.727Z - success: console loaded
+2019-11-26T05:57:45.825Z - success: fb-instant-games loaded
+2019-11-26T05:57:45.831Z - success: game-window loaded
+2019-11-26T05:57:45.834Z - success: google-instant-games loaded
+2019-11-26T05:57:45.843Z - success: hierarchy loaded
+2019-11-26T05:57:45.847Z - success: inspector loaded
+2019-11-26T05:57:45.850Z - success: keystore loaded
+2019-11-26T05:57:45.860Z - success: node-library loaded
+2019-11-26T05:57:45.863Z - success: package-asset loaded
+2019-11-26T05:57:45.866Z - success: preferences loaded
+2019-11-26T05:57:45.869Z - success: project-exporter loaded
+2019-11-26T05:57:45.873Z - success: project-importer loaded
+2019-11-26T05:57:45.877Z - success: project-settings loaded
+2019-11-26T05:57:45.884Z - success: scene loaded
+2019-11-26T05:57:45.888Z - success: simulator-debugger loaded
+2019-11-26T05:57:45.892Z - success: sprite-editor loaded
+2019-11-26T05:57:45.898Z - success: store loaded
+2019-11-26T05:57:45.909Z - success: timeline loaded
+2019-11-26T05:57:45.918Z - success: xiaomi-runtime loaded
+2019-11-26T05:57:53.347Z - normal: Loading packages
+2019-11-26T05:57:53.387Z - normal: Watching packages
+2019-11-26T05:57:55.048Z - normal: Run Application
+2019-11-26T05:57:59.221Z - info: Cocos Services load base data!
+2019-11-26T05:58:18.843Z - warn: Please change the definition of property 'coinGet' in class 'Coin'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    coinGet: cc.Texture2D,
+    // or:
+    coinGet: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    coinGet: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.866Z - warn: Please change the definition of property 'walkingAudio' in class 'animationNotFirst'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    walkingAudio: cc.Texture2D,
+    // or:
+    walkingAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    walkingAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.869Z - warn: Please change the definition of property 'ghostFindYou' in class 'Ghost'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    ghostFindYou: cc.Texture2D,
+    // or:
+    ghostFindYou: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    ghostFindYou: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.869Z - warn: Please change the definition of property 'dieAudio' in class 'Ghost'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    dieAudio: cc.Texture2D,
+    // or:
+    dieAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    dieAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.882Z - warn: Please change the definition of property 'keyGet' in class 'Key'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    keyGet: cc.Texture2D,
+    // or:
+    keyGet: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    keyGet: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.892Z - warn: Please change the definition of property 'unlockAudio' in class 'Lock'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    unlockAudio: cc.Texture2D,
+    // or:
+    unlockAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    unlockAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.900Z - warn: Please change the definition of property 'medalAudio' in class 'Spine'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    medalAudio: cc.Texture2D,
+    // or:
+    medalAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    medalAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.910Z - warn: Please change the definition of property 'turnHead' in class 'animation'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    turnHead: cc.Texture2D,
+    // or:
+    turnHead: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    turnHead: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.910Z - warn: Please change the definition of property 'walkingAudio' in class 'animation'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    walkingAudio: cc.Texture2D,
+    // or:
+    walkingAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    walkingAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.911Z - warn: Please change the definition of property 'torchSwitch' in class 'animation'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    torchSwitch: cc.Texture2D,
+    // or:
+    torchSwitch: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    torchSwitch: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.914Z - warn: Please change the definition of property 'dieAudio' in class 'firstGhost'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    dieAudio: cc.Texture2D,
+    // or:
+    dieAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    dieAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.914Z - warn: Please change the definition of property 'ghostFindYou' in class 'firstGhost'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    ghostFindYou: cc.Texture2D,
+    // or:
+    ghostFindYou: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    ghostFindYou: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.920Z - warn: Please change the definition of property 'BgmOne' in class 'Startgamebutton'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    BgmOne: cc.Texture2D,
+    // or:
+    BgmOne: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    BgmOne: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-11-26T05:58:18.934Z - warn: Please change the definition of property 'BgmWin' in class 'gameWin'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    BgmWin: cc.Texture2D,
+    // or:
+    BgmWin: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    BgmWin: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )

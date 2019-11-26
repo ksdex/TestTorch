@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "98a50733-7106-47d4-a7e0-522a7759e511",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "bgfinal02的副本": {
+      "ver": "1.0.3",
+      "uuid": "c049e8e9-a97e-4f29-84dd-a2d25e0be30a",
+      "rawTextureUuid": "98a50733-7106-47d4-a7e0-522a7759e511",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 7334,
+      "height": 3000,
+      "rawWidth": 7334,
+      "rawHeight": 3000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

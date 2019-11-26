@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "frontghost0011",
+    "texture": "84948b4f-79d9-42a6-9280-f964b393b33a",
+    "atlas": "",
+    "rect": [
+      78,
+      97,
+      679,
+      1001
+    ],
+    "offset": [
+      17.5,
+      -47.5
+    ],
+    "originalSize": [
+      800,
+      1100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
